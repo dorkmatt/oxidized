@@ -74,14 +74,14 @@ Oxidized is a network device configuration backup tool. It's a RANCID replacemen
  * Citrix
    * NetScaler (Virtual Applicance)
  * Cumulus
-   * Linux
+   * Cumulux Linux
  * DataCom
    * DmSwitch 3000
  * DELL
    * PowerConnect
    * AOSW
  * Ericsson/Redback
-   * IPOS (former SEOS)
+   * IPOS (formerly SEOS)
  * Extreme Networks
    * XOS
    * WM
@@ -107,7 +107,7 @@ Oxidized is a network device configuration backup tool. It's a RANCID replacemen
  * MRV
    * MasterOS
  * Netonix
-   * WISP Switch (As Netonix)
+   * WISP Switch
  * Opengear
    * Opengear
  * Palo Alto
@@ -125,7 +125,7 @@ Oxidized is a network device configuration backup tool. It's a RANCID replacemen
 Install all required packages and gems.
 
 ```shell
-apt-get install ruby2.0 ruby-dev libsqlite3-dev libssl-dev pkg-config cmake
+apt-get install ruby2.0 ruby2.0-dev libsqlite3-dev libssl-dev pkg-config cmake
 gem2.0 install oxidized
 gem2.0 install oxidized-script oxidized-web # if you don't install oxidized-web, make sure you remove "rest" from your config
 ```

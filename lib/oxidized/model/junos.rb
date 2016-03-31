@@ -38,6 +38,10 @@ class JunOS < Oxidized::Model
 
   cmd('show chassis hardware') { |cfg| comment cfg }
 
+  cmd('show system license installed') { |cfg| comment cfg }
+
+  cmd('show system license keys') { |cfg| comment cfg }
+
   cfg :telnet do
     username(/^login:/)
     password(/^Password:/)
